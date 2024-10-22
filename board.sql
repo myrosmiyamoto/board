@@ -1,5 +1,5 @@
 drop database if exists board;
-create database board default character set utf8 collate utf8_general_ci;
+create database board character set utf8 collate utf8_general_ci;
 drop user if exists 'board_admin'@'%';
 create user 'board_admin'@'%' identified by 'password';
 grant all on board.* to 'board_admin'@'%';
