@@ -110,7 +110,7 @@ $pdo = null;
 <?php if( !empty($error_message) ): ?>
     <ul class="error_message">
 		<?php foreach( $error_message as $value ): ?>
-            <li>・<?php echo $value; ?></li>
+            <li>・<?= $value; ?></li>
 		<?php endforeach; ?>
     </ul>
 <?php endif; ?>
